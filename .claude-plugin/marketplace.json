@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "spring-boot4-upgrade",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dingdaoyi/spring-boot4-upgrade-agent.git"
+      },
+      "description": "Audit, plan, execute, and verify Spring Boot 3.5 to 4.x upgrades. 21 production-verified runtime traps: Jackson 3 migration, Security 7 lambda DSL, virtual threads, JVM flags, modular starters, K8s crashloop triage. Works with Claude Code and Codex CLI.",
+      "version": "1.0.0",
+      "strict": false
     }
   ]
 }
